@@ -15,7 +15,7 @@ import featuerimg03 from '../Assets/images/service-03.png';
 import products from '../Assets/fake-data/product.js'
 import foodCategoryImg01 from '../Assets/images/hamburger.png'
 import foodCategoryImg02 from '../Assets/images/pizza.png'
-import foodCategoryImg03 from '../Assets/images/bread.png'
+import foodCategoryImg03 from '../Assets/images/biriyanilogo.png'
 
 
 import whyImg from '../Assets/images/location01.png'
@@ -73,8 +73,8 @@ const Home = () => {
 
       setAllProducts(filteredProducts);
     }
-    if (category === 'BREAD') {
-      const filteredProducts = products.filter(item => item.category === 'Bread')
+    if (category === 'BIRIYANI') {
+      const filteredProducts = products.filter(item => item.category === 'Biriyani')
 
       setAllProducts(filteredProducts);
     }
@@ -170,7 +170,7 @@ const Home = () => {
 
               <button className={`d-flex align-items-center gap-2 ${category === 'PIZZA' ? 'foodBtnActive' : ''} `} onClick={() => setCategory('PIZZA')}><img src={foodCategoryImg02} alt=' ' />Pizza</button>
 
-              <button className={`d-flex align-items-center gap-2 ${category === 'BREAD' ? 'foodBtnActive' : ''} `} onClick={() => setCategory('BREAD')}><img src={foodCategoryImg03} alt=' ' />Bread</button>
+              <button className={`d-flex align-items-center gap-2 ${category === 'BIRIYANI' ? 'foodBtnActive' : ''} `} onClick={() => setCategory('BIRIYANI')}><img src={foodCategoryImg03} alt=' ' />Biriyani</button>
 
 
             </div>
