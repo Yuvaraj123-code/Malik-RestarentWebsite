@@ -1,0 +1,47 @@
+.product__item{
+    border: 1px solid #ff5200;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+
+}
+.product__img{
+    margin-bottom: 20px;
+   transition: .4s;
+}
+.product__img:hover {
+transform: scale(1.2);
+}
+.product__content h5 a{
+      color: #212245;
+      font-size: 1rem;
+      text-decoration: none;
+
+    
+
+}
+.product__content h5{
+    margin-bottom: 30px;
+    
+    
+}
+
+.product__price{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #ff5200;
+
+
+}
+.addTOCart__btn{
+    border: none;
+    padding: 7px 25px;
+    background: #ff5200;
+    color: white;
+    border-radius:5px ;
+    font-size: 0.9rem;
+    
+
+
+
+}
